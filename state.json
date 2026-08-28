@@ -1,28 +1,28 @@
 {
   "repos": {
     "oppia/oppia": {
-      "last_checked": "2026-08-28T14:30:33.710124+00:00"
+      "last_checked": "2026-08-28T14:45:54.242958+00:00"
     },
     "omegaup/omegaup": {
-      "last_checked": "2026-08-28T14:30:33.710124+00:00"
+      "last_checked": "2026-08-28T14:45:54.242958+00:00"
     },
     "mofa-org/mofa": {
-      "last_checked": "2026-08-28T14:30:33.710124+00:00"
+      "last_checked": "2026-08-28T14:45:54.242958+00:00"
     }
   },
   "notified": [
+    "omegaup/omegaup#10131",
     "oppia/oppia#27223",
-    "omegaup/omegaup#10143",
-    "omegaup/omegaup#10133",
-    "omegaup/omegaup#10132",
-    "oppia/oppia#27215",
     "omegaup/omegaup#10139",
+    "omegaup/omegaup#10133",
+    "oppia/oppia#27215",
+    "oppia/oppia#27212",
+    "omegaup/omegaup#10138",
+    "omegaup/omegaup#10136",
     "oppia/oppia#27224",
     "omegaup/omegaup#10137",
-    "omegaup/omegaup#10138",
-    "omegaup/omegaup#10131",
-    "oppia/oppia#27212",
-    "omegaup/omegaup#10136"
+    "omegaup/omegaup#10143",
+    "omegaup/omegaup#10132"
   ],
   "sent_messages": [
     {
