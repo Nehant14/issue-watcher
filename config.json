@@ -1,11 +1,15 @@
 {
   "repos": [
     {
-      "repo": "owner/repo-one",
+      "repo": "oppia/oppia",
       "labels": []
     },
     {
-      "repo": "owner/repo-two",
+      "repo": "omegaup/omegaup",
+      "labels": []
+    },
+    {
+      "repo": "mofa-org/mofa",
       "labels": []
     }
   ]
