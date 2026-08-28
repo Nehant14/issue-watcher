@@ -1,13 +1,15 @@
 """
-GitHub issue watcher -> ntfy push notifications.
+GitHub issue watcher -> Telegram push notifications.
 
-Polls a configured list of repos for open issues matching given labels,
-and sends a push notification (via ntfy.sh) the first time each issue
-is seen. Designed to be run on a schedule by GitHub Actions.
+Polls a configured list of repos for open issues matching given labels
+(or all open issues, if no labels are set), and sends a Telegram message
+the first time each issue is seen. Designed to be run on a schedule by
+GitHub Actions.
 
 Env vars:
-    GH_TOKEN     - GitHub personal access token (read-only, public repos is enough)
-    NTFY_TOPIC   - your private ntfy.sh topic name
+    GH_TOKEN             - GitHub personal access token (read-only, public repos is enough)
+    TELEGRAM_BOT_TOKEN   - token for your Telegram bot (from @BotFather)
+    TELEGRAM_CHAT_ID     - your personal Telegram chat id
 """
 
 import json
@@ -19,7 +21,8 @@ import requests
 CONFIG_PATH = "config.json"
 STATE_PATH = "state.json"
 GITHUB_TOKEN = os.environ.get("GH_TOKEN")
-NTFY_TOPIC = os.environ.get("NTFY_TOPIC")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
 # How far back to re-check on every run, to safely cover any gap
 # between runs (covers Actions scheduling jitter/delays).
@@ -68,20 +71,26 @@ def fetch_issues(repo, since, label=None):
     return [i for i in resp.json() if "pull_request" not in i]
 
 
-def send_ntfy(repo, issue, label=None):
-    if not NTFY_TOPIC:
-        print("NTFY_TOPIC not set, skipping notification")
+def send_telegram(repo, issue, label=None):
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        print("TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set, skipping notification")
         return
-    url = f"https://ntfy.sh/{NTFY_TOPIC}"
-    title = f"New issue in {repo}"
-    body = f"[{label}] {issue['title']}" if label else issue["title"]
-    headers = {
-        "Title": title,
-        "Click": issue["html_url"],
-        "Priority": "high",
-        "Tags": "rotating_light",
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    label_line = f"\nLabel: {label}" if label else ""
+    text = (
+        f"🆕 New issue in {repo}\n"
+        f"{issue['title']}{label_line}"
+    )
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": text,
+        "reply_markup": {
+            "inline_keyboard": [[
+                {"text": "Open Issue", "url": issue["html_url"]}
+            ]]
+        },
     }
-    r = requests.post(url, data=body.encode("utf-8"), headers=headers, timeout=15)
+    r = requests.post(url, json=payload, timeout=15)
     r.raise_for_status()
 
 
@@ -116,7 +125,7 @@ def main():
                 if key in notified:
                     continue
                 try:
-                    send_ntfy(repo, issue, label)
+                    send_telegram(repo, issue, label)
                     print(f"Notified: {key} - {issue['title']}")
                 except requests.HTTPError as e:
                     print(f"Failed to notify {key}: {e}")

@@ -1,89 +1,93 @@
-# GitHub Issue Watcher → iPhone Notifications
+# GitHub Issue Watcher → Telegram Notifications
 
-Polls a list of GitHub repos for open issues with specific labels
-(e.g. `good first issue`, `gsoc`) and pushes an instant notification
-to your iPhone via [ntfy](https://ntfy.sh) when a new one shows up.
+Polls a list of GitHub repos for open issues (optionally filtered by
+label) and pushes an instant message to your Telegram (which shows up
+as a push notification on your iPhone) when a new one shows up.
+
+Telegram is used instead of ntfy because its iOS push delivery is far
+more reliable — no Firebase relay chain, no delayed/dropped notifications.
 
 ## Setup
 
-### 1. Install ntfy on your iPhone
-- Get the free **ntfy** app from the App Store.
-- Open it and subscribe to a topic — pick something private and hard to
-  guess, e.g. `nehant-gsoc-8f3k2`. This is your personal channel; anyone
-  who knows the topic name can send to it, so don't use something obvious.
-- (Optional but recommended) In the app, set this topic's notifications
-  to **high priority** so they break through Focus/Do Not Disturb.
+### 1. Create a Telegram bot
+- In Telegram, search for **@BotFather** and start a chat with it.
+- Send `/newbot`, give it a name and a username (must end in `bot`,
+  e.g. `nehant_issue_watcher_bot`).
+- BotFather will reply with a **bot token** — looks like
+  `123456789:AAExampleTokenString`. Save this, you'll need it as
+  `TELEGRAM_BOT_TOKEN`.
 
-### 2. Create a GitHub personal access token
+### 2. Get your personal chat ID
+- Search for **@userinfobot** in Telegram, start a chat with it, and it
+  will immediately reply with your numeric **chat ID** (e.g. `987654321`).
+  Save this as `TELEGRAM_CHAT_ID`.
+- Then open a chat with **your own bot** (search its username) and send
+  it any message, e.g. "hi" — this is required so the bot is allowed to
+  message you first (Telegram bots can't message you until you've
+  messaged them at least once).
+
+### 3. Create a GitHub personal access token
 - Go to **GitHub → Settings → Developer settings → Personal access tokens
   → Fine-grained tokens**.
-- Create one with **read-only access to public repositories**. You don't
-  need write access to the target repos — you're only reading issue data.
+- Create one with **read-only access to public repositories**.
 - This raises your API rate limit from 60/hr (unauthenticated) to
   5,000/hr, which comfortably covers polling many repos every 5 minutes.
 
-### 3. Create your own watcher repo
+### 4. Create your own watcher repo
 - Make a new repo under your account (can be private), e.g. `issue-watcher`.
 - Copy these files into it:
   - `check_issues.py`
   - `config.json`
   - `.github/workflows/check-issues.yml`
 
-### 4. Edit `config.json`
-List the repos and labels you actually want to track:
+### 5. Edit `config.json`
+List the repos you want to track. Use `"labels": []` to get every open
+issue, or list specific labels to filter:
 ```json
 {
   "repos": [
-    {
-      "repo": "owner/repo-one",
-      "labels": ["good first issue", "help wanted"]
-    }
+    { "repo": "owner/repo-one", "labels": [] },
+    { "repo": "owner/repo-two", "labels": ["good first issue"] }
   ]
 }
 ```
-Add as many repo entries as you like — this is the only file you'll
-need to touch when you want to add/remove a repo later.
 
-**`"labels": []` means every open issue** — new ones and any updated
-ones — with no filter at all. That's the default in the example above.
-If you later want to narrow a specific repo down to just certain labels
-(e.g. `good first issue`), just fill that repo's `"labels"` array in;
-leave it `[]` for repos where you want everything.
-
-### 5. Add repo secrets
+### 6. Add repo secrets
 In your watcher repo: **Settings → Secrets and variables → Actions → New
 repository secret**. Add:
-- `GH_TOKEN` — the personal access token from step 2
-- `NTFY_TOPIC` — the topic name from step 1
+- `GH_TOKEN` — the personal access token from step 3
+- `TELEGRAM_BOT_TOKEN` — from step 1
+- `TELEGRAM_CHAT_ID` — from step 2
 
-### 6. Push and enable Actions
+### 7. Push and enable Actions
 - Commit and push all the files.
 - Go to the **Actions** tab in your repo and enable workflows if prompted.
 - Manually trigger the workflow once (**Run workflow** button) to make
   sure it runs cleanly before waiting for the schedule.
 
-### 7. Test end-to-end
-- Check the Actions run logs — you should see either "Notified: ..." lines
+### 8. Test end-to-end
+- Check the Actions run logs — you should see "Notified: ..." lines
   or nothing (if there's nothing new right now), with no errors.
-- Wait for a real issue matching your labels to appear, or ask a friend
-  to open a test issue with a matching label on a repo you control, and
-  confirm the notification lands on your phone.
+- Confirm messages actually arrived in your chat with the bot on Telegram,
+  and that push notifications for that chat are on (Telegram's push
+  reliability is generally excellent by default, but double check
+  Settings → Notifications in the Telegram app if nothing arrives).
 
 ## How it works
 - Runs every 5 minutes via GitHub Actions' cron schedule.
-- For each repo + label pair, asks GitHub for open issues updated since
-  the last check (with a 15-minute overlap buffer, so nothing slips
-  through a gap between runs).
+- For each repo (+ label, if any), asks GitHub for open issues updated
+  since the last check (with a 15-minute overlap buffer, so nothing
+  slips through a gap between runs).
 - Keeps a `state.json` file (auto-committed back to the repo) tracking
   which issues have already been notified, so you never get duplicates.
-- Sends a push via `ntfy.sh/<your-topic>` with the issue title and a
-  tap-to-open link straight to the issue.
+- Sends a Telegram message with the issue title and an "Open Issue"
+  button that links straight to it.
 
 ## Notes
 - The issues API returns pull requests too; the script filters those out.
 - GitHub Actions' cron can lag a few minutes under load — 5 min is
   about as tight as it reliably gets without paying for a dedicated
   server or serverless cron.
-- If you want a faster/more reliable trigger later, a small serverless
-  function (e.g. on Cloudflare Workers or a free Render cron job) that
-  runs `check_issues.py` on its own schedule works the same way.
+- `"labels": []` for a repo means every open issue with no filtering —
+  fine for quiet repos, can get noisy on very active ones (e.g. Oppia).
+
