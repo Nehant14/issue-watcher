@@ -1,24 +1,28 @@
 {
   "repos": {
     "oppia/oppia": {
-      "last_checked": "2026-08-28T06:35:36.203153+00:00"
+      "last_checked": "2026-08-28T14:00:45.149915+00:00"
     },
     "omegaup/omegaup": {
-      "last_checked": "2026-08-28T06:35:36.203153+00:00"
+      "last_checked": "2026-08-28T14:00:45.149915+00:00"
     },
     "mofa-org/mofa": {
-      "last_checked": "2026-08-28T06:35:36.203153+00:00"
+      "last_checked": "2026-08-28T14:00:45.149915+00:00"
     }
   },
   "notified": [
-    "oppia/oppia#27224",
-    "oppia/oppia#27212",
-    "omegaup/omegaup#10131",
-    "omegaup/omegaup#10133",
-    "omegaup/omegaup#10132",
     "omegaup/omegaup#10136",
+    "oppia/oppia#27224",
+    "oppia/oppia#27215",
+    "omegaup/omegaup#10143",
+    "omegaup/omegaup#10139",
     "oppia/oppia#27223",
-    "oppia/oppia#27215"
+    "omegaup/omegaup#10132",
+    "omegaup/omegaup#10131",
+    "oppia/oppia#27212",
+    "omegaup/omegaup#10133",
+    "omegaup/omegaup#10138",
+    "omegaup/omegaup#10137"
   ],
   "sent_messages": [
     {
@@ -52,15 +56,25 @@
       "sent_at": "2026-08-28T06:50:36.203153+00:00"
     },
     {
-      "message_id": 37,
-      "key": "omegaup/omegaup#10133",
-      "sent_at": "2026-08-28T06:50:36.203153+00:00"
+      "message_id": 43,
+      "key": "omegaup/omegaup#10143",
+      "sent_at": "2026-08-28T14:15:45.149915+00:00"
     },
     {
-      "message_id": 38,
-      "key": "omegaup/omegaup#10132",
-      "sent_at": "2026-08-28T06:50:36.203153+00:00"
+      "message_id": 44,
+      "key": "omegaup/omegaup#10139",
+      "sent_at": "2026-08-28T14:15:45.149915+00:00"
+    },
+    {
+      "message_id": 45,
+      "key": "omegaup/omegaup#10138",
+      "sent_at": "2026-08-28T14:15:45.149915+00:00"
+    },
+    {
+      "message_id": 46,
+      "key": "omegaup/omegaup#10137",
+      "sent_at": "2026-08-28T14:15:45.149915+00:00"
     }
   ],
-  "telegram_update_offset": 523712407
+  "telegram_update_offset": 523712409
 }
