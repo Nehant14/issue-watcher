@@ -1,0 +1,12 @@
+{
+  "repos": [
+    {
+      "repo": "owner/repo-one",
+      "labels": []
+    },
+    {
+      "repo": "owner/repo-two",
+      "labels": []
+    }
+  ]
+}

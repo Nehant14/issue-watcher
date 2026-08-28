@@ -1,0 +1,37 @@
+name: Check GitHub Issues
+
+on:
+  schedule:
+    # Every 5 minutes. GitHub Actions doesn't reliably run faster than
+    # this even if you set a shorter interval, especially under load.
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests
+
+      - name: Run issue checker
+        run: python check_issues.py
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+
+      - name: Commit updated state
+        run: |
+          git config user.name "issue-watcher-bot"
+          git config user.email "actions@github.com"
+          git add state.json
+          git diff --staged --quiet || git commit -m "update state [skip ci]"
+          git push
