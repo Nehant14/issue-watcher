@@ -11,6 +11,18 @@
     {
       "repo": "mofa-org/mofa",
       "labels": []
-    }
+    },
+    {
+      "repo": "zulip/zulip",
+      "labels": []
+    },
+    {
+      "repo": "stdlib-js/stdlib",
+      "labels": []
+    },
+    {
+      "repo": "internetarchive/openlibrary",
+      "labels": []
+    },
   ]
 }
