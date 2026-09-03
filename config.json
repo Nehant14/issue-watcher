@@ -1,18 +1,6 @@
 {
   "repos": [
     {
-      "repo": "oppia/oppia",
-      "labels": []
-    },
-    {
-      "repo": "omegaup/omegaup",
-      "labels": []
-    },
-    {
-      "repo": "mofa-org/mofa",
-      "labels": []
-    },
-    {
       "repo": "zulip/zulip",
       "labels": []
     },
