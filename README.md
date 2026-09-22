@@ -74,7 +74,7 @@ repository secret**. Add:
   Settings → Notifications in the Telegram app if nothing arrives).
 
 ## How it works
-- Runs every 5 minutes via GitHub Actions' cron schedule.
+- Runs every 5 minutes via GitHub Actions' cron schedule or by cronJobs.
 - For each repo (+ label, if any), asks GitHub for open issues updated
   since the last check (with a 15-minute overlap buffer, so nothing
   slips through a gap between runs).
