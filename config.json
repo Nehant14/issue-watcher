@@ -15,6 +15,10 @@
     {
       "repo": "internetarchive/openlibrary",
       "labels": []
+    },
+    {
+      "repo": "laurent22/joplin",
+      "labels": []
     }
   ]
 }
