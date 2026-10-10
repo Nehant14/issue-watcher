@@ -1,8 +1,20 @@
 {
+  "presets": {
+    "zulip": {
+      "labels": ["help wanted"],
+      "unassigned_only": true,
+      "notify_freed": true,
+      "banner": "ZULIP",
+      "claim_text": "@zulipbot claim",
+      "repeat": 3,
+      "repeat_delay_seconds": 3,
+      "pushover": false
+    }
+  },
   "repos": [
     {
       "repo": "zulip/zulip",
-      "labels": ["help wanted"]
+      "preset": "zulip"
     },
     {
       "repo": "stdlib-js/stdlib",
