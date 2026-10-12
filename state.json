@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-12T08:35:38.434777+00:00",
-      "events_etag": "W/\"79a3a530372451ed532ebb185954ab7ad0aa0f94a32542b37d8dfe42f17d4978\""
+      "last_checked": "2026-10-12T08:51:07.223942+00:00",
+      "events_etag": "W/\"c3bd3b29f476d49f9d1a4b310ac606b88f346d774cff012512d96934eb39fb97\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-12T08:30:38.434777+00:00"
+      "last_checked": "2026-10-12T08:46:07.223942+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-12T08:30:38.434777+00:00"
+      "last_checked": "2026-10-12T08:46:07.223942+00:00"
     },
     "RocketChat/Rocket.Chat": {
-      "last_checked": "2026-10-12T08:30:38.434777+00:00"
+      "last_checked": "2026-10-12T08:46:07.223942+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-12T08:30:38.434777+00:00"
+      "last_checked": "2026-10-12T08:46:07.223942+00:00"
     }
   },
   "notified": [
@@ -401,7 +401,8 @@
     "laurent22/joplin#16825",
     "laurent22/joplin#16826",
     "zulip/zulip#8170:freed:33013684107",
-    "RocketChat/Rocket.Chat#42705"
+    "RocketChat/Rocket.Chat#42705",
+    "zulip/zulip#38349:freed:33032144170"
   ],
   "sent_messages": [
     {
@@ -2119,6 +2120,24 @@
       "message_id": 425,
       "key": "RocketChat/Rocket.Chat#42705",
       "sent_at": "2026-10-12T08:45:38.434777+00:00"
+    },
+    {
+      "message_id": 426,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#38349:freed:33032144170",
+      "sent_at": "2026-10-12T09:01:07.223942+00:00"
+    },
+    {
+      "message_id": 427,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#38349:freed:33032144170",
+      "sent_at": "2026-10-12T09:01:07.223942+00:00"
+    },
+    {
+      "message_id": 428,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#38349:freed:33032144170",
+      "sent_at": "2026-10-12T09:01:07.223942+00:00"
     }
   ],
   "telegram_update_offset": 523712411
