@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-13T03:05:35.451718+00:00",
-      "events_etag": "W/\"3dd28d24d4c757f2650b28563075779cae1ff319c7a105a2edcea78c62cf62f0\""
+      "last_checked": "2026-10-13T03:20:07.425630+00:00",
+      "events_etag": "W/\"825a2259c88233ccc575056b33d1a4bcedf64d1f21c264e31226600d2e399079\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-13T03:00:35.451718+00:00"
+      "last_checked": "2026-10-13T03:15:07.425630+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-13T03:00:35.451718+00:00"
+      "last_checked": "2026-10-13T03:15:07.425630+00:00"
     },
     "RocketChat/Rocket.Chat": {
-      "last_checked": "2026-10-13T03:00:35.451718+00:00"
+      "last_checked": "2026-10-13T03:15:07.425630+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-13T03:00:35.451718+00:00"
+      "last_checked": "2026-10-13T03:15:07.425630+00:00"
     }
   },
   "notified": [
@@ -407,7 +407,8 @@
     "laurent22/joplin#16831",
     "RocketChat/Rocket.Chat#42717",
     "internetarchive/openlibrary#13893",
-    "stdlib-js/stdlib#16095"
+    "stdlib-js/stdlib#16095",
+    "zulip/zulip#11613:freed:33098296219"
   ],
   "sent_messages": [
     {
@@ -2168,6 +2169,24 @@
       "message_id": 433,
       "key": "stdlib-js/stdlib#16095",
       "sent_at": "2026-10-13T00:15:37.811262+00:00"
+    },
+    {
+      "message_id": 434,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#11613:freed:33098296219",
+      "sent_at": "2026-10-13T03:30:07.425630+00:00"
+    },
+    {
+      "message_id": 435,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#11613:freed:33098296219",
+      "sent_at": "2026-10-13T03:30:07.425630+00:00"
+    },
+    {
+      "message_id": 436,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#11613:freed:33098296219",
+      "sent_at": "2026-10-13T03:30:07.425630+00:00"
     }
   ],
   "telegram_update_offset": 523712411
