@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-14T18:20:57.583857+00:00",
-      "events_etag": "W/\"59ff7c1dada4b90cb265f40ef0b37c2da2d3f0b5243c6deb2823d22bff25845c\""
+      "last_checked": "2026-10-14T18:35:42.475854+00:00",
+      "events_etag": "W/\"dc38d4217c9a57c21d48091f4dd6e2b36ec456b9eaa9a8d4517b3819172bfc90\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-14T18:15:57.583857+00:00"
+      "last_checked": "2026-10-14T18:30:42.475854+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-14T18:15:57.583857+00:00"
+      "last_checked": "2026-10-14T18:30:42.475854+00:00"
     },
     "RocketChat/Rocket.Chat": {
-      "last_checked": "2026-10-14T18:15:57.583857+00:00"
+      "last_checked": "2026-10-14T18:30:42.475854+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-14T18:15:57.583857+00:00"
+      "last_checked": "2026-10-14T18:30:42.475854+00:00"
     }
   },
   "notified": [
@@ -435,7 +435,8 @@
     "internetarchive/openlibrary#13928",
     "internetarchive/openlibrary#13927",
     "internetarchive/openlibrary#13925",
-    "internetarchive/openlibrary#13924"
+    "internetarchive/openlibrary#13924",
+    "RocketChat/Rocket.Chat#42748"
   ],
   "sent_messages": [
     {
@@ -2414,6 +2415,11 @@
       "message_id": 473,
       "key": "internetarchive/openlibrary#13924",
       "sent_at": "2026-10-14T16:45:41.921503+00:00"
+    },
+    {
+      "message_id": 474,
+      "key": "RocketChat/Rocket.Chat#42748",
+      "sent_at": "2026-10-14T18:45:42.475854+00:00"
     }
   ],
   "telegram_update_offset": 523712411
