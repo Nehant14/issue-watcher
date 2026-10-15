@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-15T18:20:57.086956+00:00",
+      "last_checked": "2026-10-15T18:35:40.148534+00:00",
       "events_etag": "W/\"eb72bce6d3c5c4baf58d09496ff1d4d0c7eeb3f475a4fe0c337c2d610ceb46f6\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-15T18:15:57.086956+00:00"
+      "last_checked": "2026-10-15T18:30:40.148534+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-15T18:15:57.086956+00:00"
+      "last_checked": "2026-10-15T18:30:40.148534+00:00"
     },
     "RocketChat/Rocket.Chat": {
-      "last_checked": "2026-10-15T18:15:57.086956+00:00"
+      "last_checked": "2026-10-15T18:30:40.148534+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-15T18:15:57.086956+00:00"
+      "last_checked": "2026-10-15T18:30:40.148534+00:00"
     }
   },
   "notified": [
@@ -444,7 +444,44 @@
     "internetarchive/openlibrary#13940",
     "zulip/zulip#6296:freed:33311337930",
     "RocketChat/Rocket.Chat#42760",
-    "internetarchive/openlibrary#13944"
+    "internetarchive/openlibrary#13944",
+    "RocketChat/Rocket.Chat#42804",
+    "RocketChat/Rocket.Chat#42811",
+    "RocketChat/Rocket.Chat#42809",
+    "RocketChat/Rocket.Chat#42808",
+    "RocketChat/Rocket.Chat#42810",
+    "RocketChat/Rocket.Chat#42807",
+    "RocketChat/Rocket.Chat#42806",
+    "RocketChat/Rocket.Chat#42805",
+    "RocketChat/Rocket.Chat#42803",
+    "RocketChat/Rocket.Chat#42802",
+    "RocketChat/Rocket.Chat#42801",
+    "RocketChat/Rocket.Chat#42800",
+    "RocketChat/Rocket.Chat#42797",
+    "RocketChat/Rocket.Chat#42799",
+    "RocketChat/Rocket.Chat#42796",
+    "RocketChat/Rocket.Chat#42795",
+    "RocketChat/Rocket.Chat#42790",
+    "RocketChat/Rocket.Chat#42793",
+    "RocketChat/Rocket.Chat#42798",
+    "RocketChat/Rocket.Chat#42792",
+    "RocketChat/Rocket.Chat#42787",
+    "RocketChat/Rocket.Chat#42786",
+    "RocketChat/Rocket.Chat#42794",
+    "RocketChat/Rocket.Chat#42789",
+    "RocketChat/Rocket.Chat#42791",
+    "RocketChat/Rocket.Chat#42788",
+    "RocketChat/Rocket.Chat#42780",
+    "RocketChat/Rocket.Chat#42784",
+    "RocketChat/Rocket.Chat#42783",
+    "RocketChat/Rocket.Chat#42785",
+    "RocketChat/Rocket.Chat#42782",
+    "RocketChat/Rocket.Chat#42781",
+    "RocketChat/Rocket.Chat#42776",
+    "RocketChat/Rocket.Chat#42778",
+    "RocketChat/Rocket.Chat#42779",
+    "RocketChat/Rocket.Chat#42775",
+    "RocketChat/Rocket.Chat#42774"
   ],
   "sent_messages": [
     {
@@ -2481,6 +2518,191 @@
       "message_id": 484,
       "key": "internetarchive/openlibrary#13944",
       "sent_at": "2026-10-15T16:01:11.816223+00:00"
+    },
+    {
+      "message_id": 485,
+      "key": "RocketChat/Rocket.Chat#42804",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 486,
+      "key": "RocketChat/Rocket.Chat#42811",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 487,
+      "key": "RocketChat/Rocket.Chat#42809",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 488,
+      "key": "RocketChat/Rocket.Chat#42808",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 489,
+      "key": "RocketChat/Rocket.Chat#42810",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 490,
+      "key": "RocketChat/Rocket.Chat#42807",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 491,
+      "key": "RocketChat/Rocket.Chat#42806",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 492,
+      "key": "RocketChat/Rocket.Chat#42805",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 493,
+      "key": "RocketChat/Rocket.Chat#42803",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 494,
+      "key": "RocketChat/Rocket.Chat#42802",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 495,
+      "key": "RocketChat/Rocket.Chat#42801",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 496,
+      "key": "RocketChat/Rocket.Chat#42800",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 497,
+      "key": "RocketChat/Rocket.Chat#42797",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 498,
+      "key": "RocketChat/Rocket.Chat#42799",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 499,
+      "key": "RocketChat/Rocket.Chat#42796",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 500,
+      "key": "RocketChat/Rocket.Chat#42795",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 501,
+      "key": "RocketChat/Rocket.Chat#42790",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 502,
+      "key": "RocketChat/Rocket.Chat#42793",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 503,
+      "key": "RocketChat/Rocket.Chat#42798",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 504,
+      "key": "RocketChat/Rocket.Chat#42792",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 505,
+      "key": "RocketChat/Rocket.Chat#42787",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 506,
+      "key": "RocketChat/Rocket.Chat#42786",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 507,
+      "key": "RocketChat/Rocket.Chat#42794",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 508,
+      "key": "RocketChat/Rocket.Chat#42789",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 509,
+      "key": "RocketChat/Rocket.Chat#42791",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 510,
+      "key": "RocketChat/Rocket.Chat#42788",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 511,
+      "key": "RocketChat/Rocket.Chat#42780",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 512,
+      "key": "RocketChat/Rocket.Chat#42784",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 513,
+      "key": "RocketChat/Rocket.Chat#42783",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 514,
+      "key": "RocketChat/Rocket.Chat#42785",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 515,
+      "key": "RocketChat/Rocket.Chat#42782",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 516,
+      "key": "RocketChat/Rocket.Chat#42781",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 517,
+      "key": "RocketChat/Rocket.Chat#42776",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 518,
+      "key": "RocketChat/Rocket.Chat#42778",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 519,
+      "key": "RocketChat/Rocket.Chat#42779",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 520,
+      "key": "RocketChat/Rocket.Chat#42775",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
+    },
+    {
+      "message_id": 521,
+      "key": "RocketChat/Rocket.Chat#42774",
+      "sent_at": "2026-10-15T18:45:40.148534+00:00"
     }
   ],
   "telegram_update_offset": 523712411
