@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-17T09:35:39.251495+00:00",
-      "events_etag": "W/\"cf1c53a6b5635411f4edca9df7eb7b3d884324ac9dce56bcfcb1f3f8e44d35b8\""
+      "last_checked": "2026-10-17T09:51:05.566196+00:00",
+      "events_etag": "W/\"d0781ed9810159dc1387703410b62d64973603b864203d144cb684309793177a\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-17T09:30:39.251495+00:00"
+      "last_checked": "2026-10-17T09:46:05.566196+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-17T09:30:39.251495+00:00"
+      "last_checked": "2026-10-17T09:46:05.566196+00:00"
     },
     "RocketChat/Rocket.Chat": {
-      "last_checked": "2026-10-17T09:30:39.251495+00:00"
+      "last_checked": "2026-10-17T09:46:05.566196+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-17T09:30:39.251495+00:00"
+      "last_checked": "2026-10-17T09:46:05.566196+00:00"
     }
   },
   "notified": [
@@ -519,7 +519,11 @@
     "stdlib-js/stdlib#16201",
     "laurent22/joplin#16866",
     "laurent22/joplin#16868",
-    "laurent22/joplin#16870"
+    "laurent22/joplin#16870",
+    "laurent22/joplin#16873",
+    "laurent22/joplin#16872",
+    "laurent22/joplin#16874",
+    "laurent22/joplin#16871"
   ],
   "sent_messages": [
     {
@@ -2931,6 +2935,26 @@
       "message_id": 559,
       "key": "laurent22/joplin#16870",
       "sent_at": "2026-10-17T09:45:39.251495+00:00"
+    },
+    {
+      "message_id": 560,
+      "key": "laurent22/joplin#16873",
+      "sent_at": "2026-10-17T10:01:05.566196+00:00"
+    },
+    {
+      "message_id": 561,
+      "key": "laurent22/joplin#16872",
+      "sent_at": "2026-10-17T10:01:05.566196+00:00"
+    },
+    {
+      "message_id": 562,
+      "key": "laurent22/joplin#16874",
+      "sent_at": "2026-10-17T10:01:05.566196+00:00"
+    },
+    {
+      "message_id": 563,
+      "key": "laurent22/joplin#16871",
+      "sent_at": "2026-10-17T10:01:05.566196+00:00"
     }
   ],
   "telegram_update_offset": 523712411
