@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-19T19:51:12.308330+00:00",
-      "events_etag": "W/\"0ed7b7ac946824180b1c8e53ecc420c088ecfbe0f2abe7a1b09c61578e8c04bf\""
+      "last_checked": "2026-10-19T20:05:38.372766+00:00",
+      "events_etag": "W/\"984256b992335dbf91b3d6adff9142c0c5f6fd131673c9690cb4ad52005c6445\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-19T19:46:12.308330+00:00"
+      "last_checked": "2026-10-19T20:00:38.372766+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-19T19:46:12.308330+00:00"
+      "last_checked": "2026-10-19T20:00:38.372766+00:00"
     },
     "RocketChat/Rocket.Chat": {
-      "last_checked": "2026-10-19T19:46:12.308330+00:00"
+      "last_checked": "2026-10-19T20:00:38.372766+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-19T19:46:12.308330+00:00"
+      "last_checked": "2026-10-19T20:00:38.372766+00:00"
     }
   },
   "notified": [
@@ -545,7 +545,8 @@
     "internetarchive/openlibrary#14031",
     "laurent22/joplin#16892",
     "zulip/zulip#40017:freed:33652354301",
-    "laurent22/joplin#16893"
+    "laurent22/joplin#16893",
+    "zulip/zulip#17968:freed:33681137418"
   ],
   "sent_messages": [
     {
@@ -3113,6 +3114,24 @@
       "message_id": 589,
       "key": "laurent22/joplin#16893",
       "sent_at": "2026-10-19T14:15:40.046771+00:00"
+    },
+    {
+      "message_id": 590,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#17968:freed:33681137418",
+      "sent_at": "2026-10-19T20:15:38.372766+00:00"
+    },
+    {
+      "message_id": 591,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#17968:freed:33681137418",
+      "sent_at": "2026-10-19T20:15:38.372766+00:00"
+    },
+    {
+      "message_id": 592,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#17968:freed:33681137418",
+      "sent_at": "2026-10-19T20:15:38.372766+00:00"
     }
   ],
   "telegram_update_offset": 523712411
