@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-21T13:51:14.666763+00:00",
-      "events_etag": "W/\"2c355476485e69682eaa0ec7871c0a078577dc431a84b73cf8868cfdb5d0475b\""
+      "last_checked": "2026-10-21T14:05:42.235254+00:00",
+      "events_etag": "W/\"4fe659fea593a4e739756684c55935f182c05c21b083eeaae5c295e7d2524bd1\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-21T13:46:14.666763+00:00"
+      "last_checked": "2026-10-21T14:00:42.235254+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-21T13:46:14.666763+00:00"
+      "last_checked": "2026-10-21T14:00:42.235254+00:00"
     },
     "RocketChat/Rocket.Chat": {
-      "last_checked": "2026-10-21T13:46:14.666763+00:00"
+      "last_checked": "2026-10-21T14:00:42.235254+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-21T13:46:14.666763+00:00"
+      "last_checked": "2026-10-21T14:00:42.235254+00:00"
     }
   },
   "notified": [
@@ -558,7 +558,8 @@
     "zulip/zulip#33267:freed:33803511815",
     "RocketChat/Rocket.Chat#42980",
     "RocketChat/Rocket.Chat#42981",
-    "RocketChat/Rocket.Chat#42997"
+    "RocketChat/Rocket.Chat#42997",
+    "zulip/zulip#37614:freed:33853840366"
   ],
   "sent_messages": [
     {
@@ -3217,6 +3218,24 @@
       "message_id": 606,
       "key": "RocketChat/Rocket.Chat#42997",
       "sent_at": "2026-10-21T13:01:15.191666+00:00"
+    },
+    {
+      "message_id": 607,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#37614:freed:33853840366",
+      "sent_at": "2026-10-21T14:15:42.235254+00:00"
+    },
+    {
+      "message_id": 608,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#37614:freed:33853840366",
+      "sent_at": "2026-10-21T14:15:42.235254+00:00"
+    },
+    {
+      "message_id": 609,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#37614:freed:33853840366",
+      "sent_at": "2026-10-21T14:15:42.235254+00:00"
     }
   ],
   "telegram_update_offset": 523712411
