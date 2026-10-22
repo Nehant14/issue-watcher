@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-22T23:05:36.558578+00:00",
+      "last_checked": "2026-10-22T23:20:58.707164+00:00",
       "events_etag": "W/\"194355d6fd1d2639899f32bb26091cf7b390133b92f5f42e1a545851d80aa15e\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-22T23:00:36.558578+00:00"
+      "last_checked": "2026-10-22T23:15:58.707164+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-22T23:00:36.558578+00:00"
+      "last_checked": "2026-10-22T23:15:58.707164+00:00"
     },
     "RocketChat/Rocket.Chat": {
-      "last_checked": "2026-10-22T23:00:36.558578+00:00"
+      "last_checked": "2026-10-22T23:15:58.707164+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-22T23:00:36.558578+00:00"
+      "last_checked": "2026-10-22T23:15:58.707164+00:00"
     }
   },
   "notified": [
@@ -580,7 +580,9 @@
     "internetarchive/openlibrary#14064",
     "RocketChat/Rocket.Chat#43043",
     "RocketChat/Rocket.Chat#43048",
-    "RocketChat/Rocket.Chat#43051"
+    "RocketChat/Rocket.Chat#43051",
+    "laurent22/joplin#16925",
+    "laurent22/joplin#16924"
   ],
   "sent_messages": [
     {
@@ -3375,6 +3377,16 @@
       "message_id": 632,
       "key": "RocketChat/Rocket.Chat#43051",
       "sent_at": "2026-10-22T21:45:38.072506+00:00"
+    },
+    {
+      "message_id": 633,
+      "key": "laurent22/joplin#16925",
+      "sent_at": "2026-10-22T23:30:58.707164+00:00"
+    },
+    {
+      "message_id": 634,
+      "key": "laurent22/joplin#16924",
+      "sent_at": "2026-10-22T23:30:58.707164+00:00"
     }
   ],
   "telegram_update_offset": 523712411
