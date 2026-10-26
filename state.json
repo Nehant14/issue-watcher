@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-26T14:35:41.034577+00:00",
-      "events_etag": "W/\"cce3f336c3fa4389a4813aa03540f1b4e5037c17dff621af9d11303d125691ea\""
+      "last_checked": "2026-10-26T14:51:11.885326+00:00",
+      "events_etag": "W/\"2a2fc0486d7ffc7a019d0ce48fca8e7a3f198ccf43dfdb4dd443fb0314607047\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-26T14:30:41.034577+00:00"
+      "last_checked": "2026-10-26T14:46:11.885326+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-26T14:30:41.034577+00:00"
+      "last_checked": "2026-10-26T14:46:11.885326+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-26T14:30:41.034577+00:00"
+      "last_checked": "2026-10-26T14:46:11.885326+00:00"
     }
   },
   "notified": [
@@ -616,7 +616,8 @@
     "zulip/zulip#21274:freed:34203672579",
     "laurent22/joplin#16947",
     "stdlib-js/stdlib#16319",
-    "zulip/zulip#19166:freed:34219789150"
+    "zulip/zulip#19166:freed:34219789150",
+    "zulip/zulip#23380:freed:34272144525"
   ],
   "sent_messages": [
     {
@@ -3695,6 +3696,24 @@
       "chat_id": "5232390807",
       "key": "zulip/zulip#19166:freed:34219789150",
       "sent_at": "2026-10-26T03:01:08.174281+00:00"
+    },
+    {
+      "message_id": 685,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#23380:freed:34272144525",
+      "sent_at": "2026-10-26T15:01:11.885326+00:00"
+    },
+    {
+      "message_id": 686,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#23380:freed:34272144525",
+      "sent_at": "2026-10-26T15:01:11.885326+00:00"
+    },
+    {
+      "message_id": 687,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#23380:freed:34272144525",
+      "sent_at": "2026-10-26T15:01:11.885326+00:00"
     }
   ],
   "telegram_update_offset": 523712411
