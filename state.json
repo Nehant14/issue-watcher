@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-28T03:35:36.455533+00:00",
-      "events_etag": "W/\"0316f49b119038731a725bf9effadb187583b7baa5f1e36fb06a9771098e3a6f\""
+      "last_checked": "2026-10-28T03:51:07.055647+00:00",
+      "events_etag": "W/\"1b9b85cb15fa07758b78d9505c0e14567c6574a60534d5516adbab9e9cd4e38e\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-28T03:30:36.455533+00:00"
+      "last_checked": "2026-10-28T03:46:07.055647+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-28T03:30:36.455533+00:00"
+      "last_checked": "2026-10-28T03:46:07.055647+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-28T03:30:36.455533+00:00"
+      "last_checked": "2026-10-28T03:46:07.055647+00:00"
     }
   },
   "notified": [
@@ -643,7 +643,16 @@
     "internetarchive/openlibrary#14129",
     "internetarchive/openlibrary#14137",
     "internetarchive/openlibrary#14128",
-    "internetarchive/openlibrary#14130"
+    "internetarchive/openlibrary#14130",
+    "internetarchive/openlibrary#14148",
+    "internetarchive/openlibrary#14147",
+    "internetarchive/openlibrary#14146",
+    "internetarchive/openlibrary#14145",
+    "internetarchive/openlibrary#14144",
+    "internetarchive/openlibrary#14143",
+    "internetarchive/openlibrary#14142",
+    "internetarchive/openlibrary#14141",
+    "internetarchive/openlibrary#14140"
   ],
   "sent_messages": [
     {
@@ -3883,6 +3892,51 @@
       "message_id": 715,
       "key": "internetarchive/openlibrary#14130",
       "sent_at": "2026-10-28T03:30:54.146173+00:00"
+    },
+    {
+      "message_id": 716,
+      "key": "internetarchive/openlibrary#14148",
+      "sent_at": "2026-10-28T04:01:07.055647+00:00"
+    },
+    {
+      "message_id": 717,
+      "key": "internetarchive/openlibrary#14147",
+      "sent_at": "2026-10-28T04:01:07.055647+00:00"
+    },
+    {
+      "message_id": 718,
+      "key": "internetarchive/openlibrary#14146",
+      "sent_at": "2026-10-28T04:01:07.055647+00:00"
+    },
+    {
+      "message_id": 719,
+      "key": "internetarchive/openlibrary#14145",
+      "sent_at": "2026-10-28T04:01:07.055647+00:00"
+    },
+    {
+      "message_id": 720,
+      "key": "internetarchive/openlibrary#14144",
+      "sent_at": "2026-10-28T04:01:07.055647+00:00"
+    },
+    {
+      "message_id": 721,
+      "key": "internetarchive/openlibrary#14143",
+      "sent_at": "2026-10-28T04:01:07.055647+00:00"
+    },
+    {
+      "message_id": 722,
+      "key": "internetarchive/openlibrary#14142",
+      "sent_at": "2026-10-28T04:01:07.055647+00:00"
+    },
+    {
+      "message_id": 723,
+      "key": "internetarchive/openlibrary#14141",
+      "sent_at": "2026-10-28T04:01:07.055647+00:00"
+    },
+    {
+      "message_id": 724,
+      "key": "internetarchive/openlibrary#14140",
+      "sent_at": "2026-10-28T04:01:07.055647+00:00"
     }
   ],
   "telegram_update_offset": 523712411
