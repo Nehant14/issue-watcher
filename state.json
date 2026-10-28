@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-28T14:20:58.139202+00:00",
-      "events_etag": "W/\"ed729b7c870476bae5496becbba3dae238d2350ede9499f9b9c7d12bead077df\""
+      "last_checked": "2026-10-28T14:35:42.485497+00:00",
+      "events_etag": "W/\"1f34f82c9d3bab2010cf537911d98f250ed1e6c8c84cd762425e03e285cdc45b\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-28T14:15:58.139202+00:00"
+      "last_checked": "2026-10-28T14:30:42.485497+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-28T14:15:58.139202+00:00"
+      "last_checked": "2026-10-28T14:30:42.485497+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-28T14:15:58.139202+00:00"
+      "last_checked": "2026-10-28T14:30:42.485497+00:00"
     }
   },
   "notified": [
@@ -657,7 +657,8 @@
     "laurent22/joplin#16968",
     "laurent22/joplin#16969",
     "stdlib-js/stdlib#16335",
-    "internetarchive/openlibrary#14164"
+    "internetarchive/openlibrary#14164",
+    "laurent22/joplin#16970"
   ],
   "sent_messages": [
     {
@@ -3980,6 +3981,11 @@
       "message_id": 731,
       "key": "internetarchive/openlibrary#14164",
       "sent_at": "2026-10-28T12:01:15.124678+00:00"
+    },
+    {
+      "message_id": 732,
+      "key": "laurent22/joplin#16970",
+      "sent_at": "2026-10-28T14:45:42.485497+00:00"
     }
   ],
   "telegram_update_offset": 523712411
