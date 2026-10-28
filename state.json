@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-28T08:35:42.289464+00:00",
-      "events_etag": "W/\"c14b8d7c2ffc5a561a64dca98376acb7bb6401315d88eed68217409654448aa9\""
+      "last_checked": "2026-10-28T08:51:08.986205+00:00",
+      "events_etag": "W/\"7245300475138239773ebc13ad1ed59e96b082829d651b69c0478cfee8040562\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-28T08:30:42.289464+00:00"
+      "last_checked": "2026-10-28T08:46:08.986205+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-28T08:30:42.289464+00:00"
+      "last_checked": "2026-10-28T08:46:08.986205+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-28T08:30:42.289464+00:00"
+      "last_checked": "2026-10-28T08:46:08.986205+00:00"
     }
   },
   "notified": [
@@ -652,7 +652,8 @@
     "internetarchive/openlibrary#14143",
     "internetarchive/openlibrary#14142",
     "internetarchive/openlibrary#14141",
-    "internetarchive/openlibrary#14140"
+    "internetarchive/openlibrary#14140",
+    "zulip/zulip#8170:freed:34455561424"
   ],
   "sent_messages": [
     {
@@ -3937,6 +3938,24 @@
       "message_id": 724,
       "key": "internetarchive/openlibrary#14140",
       "sent_at": "2026-10-28T04:01:07.055647+00:00"
+    },
+    {
+      "message_id": 725,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#8170:freed:34455561424",
+      "sent_at": "2026-10-28T09:01:08.986205+00:00"
+    },
+    {
+      "message_id": 726,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#8170:freed:34455561424",
+      "sent_at": "2026-10-28T09:01:08.986205+00:00"
+    },
+    {
+      "message_id": 727,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#8170:freed:34455561424",
+      "sent_at": "2026-10-28T09:01:08.986205+00:00"
     }
   ],
   "telegram_update_offset": 523712411
