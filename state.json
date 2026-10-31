@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-10-30T23:51:11.787907+00:00",
-      "events_etag": "W/\"c387a342d3f4dd628785af00001414e64d033289bb0179ae94c71f559fb68629\""
+      "last_checked": "2026-10-31T00:05:38.533086+00:00",
+      "events_etag": "W/\"040f74d2e295b419e8c8dbf39db90762057fd3fba895c8984d87ccd58d50e594\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-10-30T23:46:11.787907+00:00"
+      "last_checked": "2026-10-31T00:00:38.533086+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-10-30T23:46:11.787907+00:00"
+      "last_checked": "2026-10-31T00:00:38.533086+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-10-30T23:46:11.787907+00:00"
+      "last_checked": "2026-10-31T00:00:38.533086+00:00"
     }
   },
   "notified": [
@@ -678,7 +678,11 @@
     "zulip/zulip#40026:freed:34653371088",
     "laurent22/joplin#16975",
     "laurent22/joplin#16976",
-    "internetarchive/openlibrary#14230"
+    "internetarchive/openlibrary#14230",
+    "internetarchive/openlibrary#14236",
+    "internetarchive/openlibrary#14235",
+    "internetarchive/openlibrary#14237",
+    "internetarchive/openlibrary#14234"
   ],
   "sent_messages": [
     {
@@ -4132,6 +4136,26 @@
       "message_id": 756,
       "key": "internetarchive/openlibrary#14230",
       "sent_at": "2026-10-30T18:30:55.712649+00:00"
+    },
+    {
+      "message_id": 757,
+      "key": "internetarchive/openlibrary#14236",
+      "sent_at": "2026-10-31T00:15:38.533086+00:00"
+    },
+    {
+      "message_id": 758,
+      "key": "internetarchive/openlibrary#14235",
+      "sent_at": "2026-10-31T00:15:38.533086+00:00"
+    },
+    {
+      "message_id": 759,
+      "key": "internetarchive/openlibrary#14237",
+      "sent_at": "2026-10-31T00:15:38.533086+00:00"
+    },
+    {
+      "message_id": 760,
+      "key": "internetarchive/openlibrary#14234",
+      "sent_at": "2026-10-31T00:15:38.533086+00:00"
     }
   ],
   "telegram_update_offset": 523712411
