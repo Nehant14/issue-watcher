@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-11-05T14:21:10.337122+00:00",
-      "events_etag": "W/\"6d053469217cfcc370682a4c8db32339c506947c86049dfdecf629cb1571f3fb\""
+      "last_checked": "2026-11-05T14:35:43.243701+00:00",
+      "events_etag": "W/\"073f613ed848825f51a0bd34f832203014d3ddeb527851070f2b828d86abd4ce\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-11-05T14:16:10.337122+00:00"
+      "last_checked": "2026-11-05T14:30:43.243701+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-11-05T14:16:10.337122+00:00"
+      "last_checked": "2026-11-05T14:30:43.243701+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-11-05T14:16:10.337122+00:00"
+      "last_checked": "2026-11-05T14:30:43.243701+00:00"
     }
   },
   "notified": [
@@ -719,7 +719,8 @@
     "internetarchive/openlibrary#14286",
     "internetarchive/openlibrary#14289",
     "zulip/zulip#38384:freed:35230549624",
-    "internetarchive/openlibrary#14291"
+    "internetarchive/openlibrary#14291",
+    "zulip/zulip#5553:freed:35251620859"
   ],
   "sent_messages": [
     {
@@ -4443,6 +4444,24 @@
       "message_id": 807,
       "key": "internetarchive/openlibrary#14291",
       "sent_at": "2026-11-05T13:31:00.593984+00:00"
+    },
+    {
+      "message_id": 808,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#5553:freed:35251620859",
+      "sent_at": "2026-11-05T14:45:43.243701+00:00"
+    },
+    {
+      "message_id": 809,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#5553:freed:35251620859",
+      "sent_at": "2026-11-05T14:45:43.243701+00:00"
+    },
+    {
+      "message_id": 810,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#5553:freed:35251620859",
+      "sent_at": "2026-11-05T14:45:43.243701+00:00"
     }
   ],
   "telegram_update_offset": 523712411
