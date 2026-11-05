@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-11-05T10:20:58.318541+00:00",
-      "events_etag": "W/\"03104521607392229c5ab0d84c52714479332642aca615c26688a7501bea9ba9\""
+      "last_checked": "2026-11-05T10:35:38.522303+00:00",
+      "events_etag": "W/\"1ac95f8863f740956c18d757f0eb34136aee8a76343555269a66d0fe5d1fba97\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-11-05T10:15:58.318541+00:00"
+      "last_checked": "2026-11-05T10:30:38.522303+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-11-05T10:15:58.318541+00:00"
+      "last_checked": "2026-11-05T10:30:38.522303+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-11-05T10:15:58.318541+00:00"
+      "last_checked": "2026-11-05T10:30:38.522303+00:00"
     }
   },
   "notified": [
@@ -717,7 +717,8 @@
     "internetarchive/openlibrary#14284",
     "internetarchive/openlibrary#14285",
     "internetarchive/openlibrary#14286",
-    "internetarchive/openlibrary#14289"
+    "internetarchive/openlibrary#14289",
+    "zulip/zulip#38384:freed:35230549624"
   ],
   "sent_messages": [
     {
@@ -4418,6 +4419,24 @@
       "message_id": 803,
       "key": "internetarchive/openlibrary#14289",
       "sent_at": "2026-11-05T07:30:56.516377+00:00"
+    },
+    {
+      "message_id": 804,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#38384:freed:35230549624",
+      "sent_at": "2026-11-05T10:45:38.522303+00:00"
+    },
+    {
+      "message_id": 805,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#38384:freed:35230549624",
+      "sent_at": "2026-11-05T10:45:38.522303+00:00"
+    },
+    {
+      "message_id": 806,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#38384:freed:35230549624",
+      "sent_at": "2026-11-05T10:45:38.522303+00:00"
     }
   ],
   "telegram_update_offset": 523712411
