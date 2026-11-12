@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-11-12T07:35:37.413962+00:00",
-      "events_etag": "W/\"4dd6294cb3066a896627ce4e4f1bd0e356e02c306c217381b26ff6a11eef1969\""
+      "last_checked": "2026-11-12T07:51:05.095991+00:00",
+      "events_etag": "W/\"1773bd07a4d5a41070be7142fae44570626b62693c16ff10f490641acd05174b\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-11-12T07:30:37.413962+00:00"
+      "last_checked": "2026-11-12T07:46:05.095991+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-11-12T07:30:37.413962+00:00"
+      "last_checked": "2026-11-12T07:46:05.095991+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-11-12T07:30:37.413962+00:00"
+      "last_checked": "2026-11-12T07:46:05.095991+00:00"
     }
   },
   "notified": [
@@ -797,7 +797,8 @@
     "laurent22/joplin#17095",
     "internetarchive/openlibrary#14446",
     "zulip/zulip#33267:freed:35879004809",
-    "internetarchive/openlibrary#14449"
+    "internetarchive/openlibrary#14449",
+    "zulip/zulip#23380:freed:35886926564"
   ],
   "sent_messages": [
     {
@@ -5015,6 +5016,24 @@
       "message_id": 902,
       "key": "internetarchive/openlibrary#14449",
       "sent_at": "2026-11-12T07:01:08.154381+00:00"
+    },
+    {
+      "message_id": 903,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#23380:freed:35886926564",
+      "sent_at": "2026-11-12T08:01:05.095991+00:00"
+    },
+    {
+      "message_id": 904,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#23380:freed:35886926564",
+      "sent_at": "2026-11-12T08:01:05.095991+00:00"
+    },
+    {
+      "message_id": 905,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#23380:freed:35886926564",
+      "sent_at": "2026-11-12T08:01:05.095991+00:00"
     }
   ],
   "telegram_update_offset": 523712411
