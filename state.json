@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-11-13T19:51:04.672308+00:00",
-      "events_etag": "W/\"42b057a1f61d95903413c142ff024b3bd8271a6be3107cc7dcdbe7c3b02185f2\""
+      "last_checked": "2026-11-13T20:05:39.113323+00:00",
+      "events_etag": "W/\"d670a4d7a63f5f20b8c2ff93fc14c9bc28b3badebab1dea7273b668d6fd1c6d2\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-11-13T19:46:04.672308+00:00"
+      "last_checked": "2026-11-13T20:00:39.113323+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-11-13T19:46:04.672308+00:00"
+      "last_checked": "2026-11-13T20:00:39.113323+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-11-13T19:46:04.672308+00:00"
+      "last_checked": "2026-11-13T20:00:39.113323+00:00"
     }
   },
   "notified": [
@@ -810,7 +810,8 @@
     "zulip/zulip#24044:freed:35996166125",
     "zulip/zulip#35135:freed:36009211273",
     "internetarchive/openlibrary#14470",
-    "internetarchive/openlibrary#14471"
+    "internetarchive/openlibrary#14471",
+    "zulip/zulip#23380:freed:36069562027"
   ],
   "sent_messages": [
     {
@@ -5145,6 +5146,24 @@
       "message_id": 923,
       "key": "internetarchive/openlibrary#14471",
       "sent_at": "2026-11-13T18:01:11.304039+00:00"
+    },
+    {
+      "message_id": 924,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#23380:freed:36069562027",
+      "sent_at": "2026-11-13T20:15:39.113323+00:00"
+    },
+    {
+      "message_id": 925,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#23380:freed:36069562027",
+      "sent_at": "2026-11-13T20:15:39.113323+00:00"
+    },
+    {
+      "message_id": 926,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#23380:freed:36069562027",
+      "sent_at": "2026-11-13T20:15:39.113323+00:00"
     }
   ],
   "telegram_update_offset": 523712411
