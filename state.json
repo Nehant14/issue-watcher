@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-11-14T17:05:38.311118+00:00",
-      "events_etag": "W/\"b441cd09f14dd176082f28c5b6b58662939ba6513119dd4c68ea1e768ea6731e\""
+      "last_checked": "2026-11-14T17:20:59.564777+00:00",
+      "events_etag": "W/\"a4d835986f707cdccd0d907560e868173fa17f2af369af8ba005814e4988a2af\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-11-14T17:00:38.311118+00:00"
+      "last_checked": "2026-11-14T17:15:59.564777+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-11-14T17:00:38.311118+00:00"
+      "last_checked": "2026-11-14T17:15:59.564777+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-11-14T17:00:38.311118+00:00"
+      "last_checked": "2026-11-14T17:15:59.564777+00:00"
     }
   },
   "notified": [
