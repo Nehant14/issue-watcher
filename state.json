@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-11-16T01:00:06.610159+00:00",
-      "events_etag": "W/\"296daa73de971701d0f2686bc15ab58c2518d54ccfc15c29886a8286a91beac0\""
+      "last_checked": "2026-11-16T07:47:00.632078+00:00",
+      "events_etag": "W/\"81d70fb4a121551c780af5116ee113ae7d3a364dc7d9fc7fb7862980ea29aebc\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-11-16T00:55:06.610159+00:00"
+      "last_checked": "2026-11-16T07:42:00.632078+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-11-16T00:55:06.610159+00:00"
+      "last_checked": "2026-11-16T07:42:00.632078+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-11-16T00:55:06.610159+00:00"
+      "last_checked": "2026-11-16T07:42:00.632078+00:00"
     }
   },
   "notified": [
@@ -834,7 +834,9 @@
     "internetarchive/openlibrary#14486",
     "internetarchive/openlibrary#14490",
     "internetarchive/openlibrary#14492",
-    "internetarchive/openlibrary#14491"
+    "internetarchive/openlibrary#14491",
+    "zulip/zulip#31891:freed:36250757963",
+    "zulip/zulip#38839:freed:36235008245"
   ],
   "sent_messages": [
     {
@@ -5406,6 +5408,42 @@
       "message_id": 965,
       "key": "internetarchive/openlibrary#14491",
       "sent_at": "2026-11-16T01:10:06.610159+00:00"
+    },
+    {
+      "message_id": 966,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#31891:freed:36250757963",
+      "sent_at": "2026-11-16T07:57:00.632078+00:00"
+    },
+    {
+      "message_id": 967,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#31891:freed:36250757963",
+      "sent_at": "2026-11-16T07:57:00.632078+00:00"
+    },
+    {
+      "message_id": 968,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#31891:freed:36250757963",
+      "sent_at": "2026-11-16T07:57:00.632078+00:00"
+    },
+    {
+      "message_id": 969,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#38839:freed:36235008245",
+      "sent_at": "2026-11-16T07:57:00.632078+00:00"
+    },
+    {
+      "message_id": 970,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#38839:freed:36235008245",
+      "sent_at": "2026-11-16T07:57:00.632078+00:00"
+    },
+    {
+      "message_id": 971,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#38839:freed:36235008245",
+      "sent_at": "2026-11-16T07:57:00.632078+00:00"
     }
   ],
   "telegram_update_offset": 523712411
