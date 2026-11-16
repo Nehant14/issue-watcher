@@ -10,20 +10,20 @@
       "last_checked": "2026-09-03T14:00:45.258533+00:00"
     },
     "zulip/zulip": {
-      "last_checked": "2026-11-16T07:47:00.632078+00:00",
-      "events_etag": "W/\"81d70fb4a121551c780af5116ee113ae7d3a364dc7d9fc7fb7862980ea29aebc\""
+      "last_checked": "2026-11-16T17:43:12.860586+00:00",
+      "events_etag": "W/\"834a58fc8a50ce70a60aa3c7dbe806edaa81dff4abbbcbd95605217a14df196d\""
     },
     "stdlib-js/stdlib": {
-      "last_checked": "2026-11-16T07:42:00.632078+00:00"
+      "last_checked": "2026-11-16T17:38:12.860586+00:00"
     },
     "internetarchive/openlibrary": {
-      "last_checked": "2026-11-16T07:42:00.632078+00:00"
+      "last_checked": "2026-11-16T17:38:12.860586+00:00"
     },
     "RocketChat/Rocket.Chat": {
       "last_checked": "2026-10-24T13:00:38.003574+00:00"
     },
     "laurent22/joplin": {
-      "last_checked": "2026-11-16T07:42:00.632078+00:00"
+      "last_checked": "2026-11-16T17:38:12.860586+00:00"
     }
   },
   "notified": [
@@ -836,7 +836,12 @@
     "internetarchive/openlibrary#14492",
     "internetarchive/openlibrary#14491",
     "zulip/zulip#31891:freed:36250757963",
-    "zulip/zulip#38839:freed:36235008245"
+    "zulip/zulip#38839:freed:36235008245",
+    "zulip/zulip#37078:freed:36292908787",
+    "zulip/zulip#17968:freed:36283406626",
+    "stdlib-js/stdlib#16654",
+    "stdlib-js/stdlib#16655",
+    "laurent22/joplin#17120"
   ],
   "sent_messages": [
     {
@@ -5444,6 +5449,57 @@
       "chat_id": "5232390807",
       "key": "zulip/zulip#38839:freed:36235008245",
       "sent_at": "2026-11-16T07:57:00.632078+00:00"
+    },
+    {
+      "message_id": 972,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#37078:freed:36292908787",
+      "sent_at": "2026-11-16T17:53:12.860586+00:00"
+    },
+    {
+      "message_id": 973,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#37078:freed:36292908787",
+      "sent_at": "2026-11-16T17:53:12.860586+00:00"
+    },
+    {
+      "message_id": 974,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#37078:freed:36292908787",
+      "sent_at": "2026-11-16T17:53:12.860586+00:00"
+    },
+    {
+      "message_id": 975,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#17968:freed:36283406626",
+      "sent_at": "2026-11-16T17:53:12.860586+00:00"
+    },
+    {
+      "message_id": 976,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#17968:freed:36283406626",
+      "sent_at": "2026-11-16T17:53:12.860586+00:00"
+    },
+    {
+      "message_id": 977,
+      "chat_id": "5232390807",
+      "key": "zulip/zulip#17968:freed:36283406626",
+      "sent_at": "2026-11-16T17:53:12.860586+00:00"
+    },
+    {
+      "message_id": 978,
+      "key": "stdlib-js/stdlib#16654",
+      "sent_at": "2026-11-16T17:53:12.860586+00:00"
+    },
+    {
+      "message_id": 979,
+      "key": "stdlib-js/stdlib#16655",
+      "sent_at": "2026-11-16T17:53:12.860586+00:00"
+    },
+    {
+      "message_id": 980,
+      "key": "laurent22/joplin#17120",
+      "sent_at": "2026-11-16T17:53:12.860586+00:00"
     }
   ],
   "telegram_update_offset": 523712411
